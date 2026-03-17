@@ -1,4 +1,24 @@
-h1
-{ color: blue;
+body{
 
+    background-color: aqua;
+}
+
+h1{ 
+    
+    color: rgb(209, 255, 6);
+
+}
+div{
+    width: 300px;
+    border: 5px solid rgb(3, 0, 206);
+    padding: 30px;
+    margin-left: 60px;
+    background-color: bisque;
+}
+#paragraf{
+    color: black;
+    font: 20px;
+    border-style:double;
+    border-width: 6px;
+    border-color: brown;
 }
