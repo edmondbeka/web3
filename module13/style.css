@@ -13,7 +13,7 @@ a:active{
 }
 
 ul{
-    list-style-type: none; /*square,circle,disc */
+    list-style-type: none; /*square,circle,disc pseudo-classa */
     padding: 0px;
     border: 2px solid grey;   
 }
