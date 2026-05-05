@@ -31,10 +31,11 @@ h2::before{
     background: url(images.jpg);
 }
 .rounded #example-four{
-    margin: 10px;
+    margin: 100px;
     width: 150px;
-    height: 150px;
-    border-radius: 5px 60px 10px;
+    height: 150px; 
+    border-radius: 30px/50px;
     background-color: #bada55;
 }
 
+                                             
