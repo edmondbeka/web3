@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    background: lightgreen;
+    flex-direction: row;
+    height: 400px;
+    justify-content: flex-start;
+    align-items: center; 
+   /*flex-wrap: wrap;
+   align-content: space-evenly; */
+
+
+}
+
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+.container div:nth-child(2){
+    order: 3;
+}
+.container div:nth-child(1){
+    align-self: flex-end;
+    height: 100px;
+}
+.container div:nth-child(3){
+    height: 130px;
+}
+
