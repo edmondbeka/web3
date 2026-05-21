@@ -1,5 +1,6 @@
+
 #section-1{
-    background-color:#87509c ;
+    background-color: #87509c;
     height: 600px;
 }
 .container{
@@ -11,25 +12,55 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 55px;
-
 }
 nav ul li {
     display: inline-block;
     padding: 10px 16px;
 }
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
 }
-nav ul li .active{
+
+nav ul li .active {
     background-color: #643a79;
     border-radius: 5px;
 }
+.main-heading{
+    text-align: center;
+    margin-top: 130px;
+    margin: 0;
+}
+
+.main-heading h1{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.main-heading h1{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.main-heading a{
+    color: white;
+    padding: 25px 85px;
+    font-size: 18px;
+    background-color: #eb7d4b;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+
 #section-2{
     background-color:#17c2a4;
     min-height: 700px;
     color: white;
-
 
 }
 body{
@@ -38,13 +69,11 @@ body{
 }
 .title-box{
 
-
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     max-width:600px ;
 }
-
 
 .title-box h2{
     margin-top: 0;
@@ -54,11 +83,9 @@ body{
     border-radius: 5px;
     text-transform: uppercase;
 
-
 }
 
-
-.service-box{
+.services-box{
     display: flex;
     margin-top: 80px;
     margin-left: auto;
@@ -66,9 +93,7 @@ body{
     width: 80%;
 
 
-
 }
-
 
 .service{
     width: 24%;
@@ -76,9 +101,7 @@ body{
     margin-right: auto;
     text-align: center;
 
-
 }
-
 
 .service h3{
     margin-top: 60px;
@@ -87,50 +110,55 @@ body{
     text-transform: uppercase;
 }
 
-
 .service p{
     font-size: 16px;
     
 }
 #section-3{
-    background-color: #3c5499;
+    background-color: #3C5499;
     min-height: 800px;
     color: white;
 }
 #contact-form{
+
     max-width: 860px;
     margin-left: auto;
     margin-right: auto;
+
 }
 .form-row{
     display: flex;
 }
 
-input[type="text"] , input[type="email"]{
+input[type="text"], input[type="email"]{
     height: 56px;
     width: 46%;
+
 }
-input[type="text"] , input[type="email"],textarea{
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
+input[type="text"], input[type="email"], textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white ;
     background-color: #273a71;
     font-size: 18px;
     margin: 16px;
-    border-radius: 5;
+    border-radius: 5px;
     padding-left: 20px;
     border: none;
 }
-#textarea{
+
+
+textarea{
     height: 200px;
     width: 100%;
     padding-top: 24px;
 }
+
 input[type="submit"]{
-    color: white;
+    color:white ;
     background-color: #30bae7;
     font-size: 18px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left:auto ;
     margin-top: 60px;
     border-radius: 5px;
     border: none;
@@ -140,25 +168,27 @@ input[type="submit"]{
     color: white;
 }
 footer{
-   background-color: #344b8e;
+    background-color: #344b8e;
 }
+
 .footer-links{
-    max-width: 945px;
+
+     max-width: 945px;
     margin-left: auto;
     margin-right: auto;
 }
- footer ul{
+footer ul{
     margin: 0;
-    padding-top: 25px;
+    padding-top:25px;
     padding-bottom: 25px;
     display: flex;
- }
- .footer-links ul li{
+}
+.footer-links ul li{
     display: inline-block;
     padding: 10px 20px 10px 20px;
- }
-  .footer-links ul li a{
-     text-decoration: none;
-     color: white;
-     
- }
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
