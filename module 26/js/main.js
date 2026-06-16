@@ -50,3 +50,10 @@ var name="edmond";
 var lastname="beka";
 var fullname= name +"" +lastname;
 console.log(fullname)
+
+
+var age=16;
+console.log(age >=18 && age <=65);// and duhet te dy kushtet me qen te sakt
+
+var age=15;
+console.log(age <=20 || age <=65);// or mjafton njeri prej kushteve te jet i sakt
