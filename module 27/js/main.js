@@ -70,3 +70,4 @@ function Computer(name,cpu,ram,gpu){
 }
  var c1=new Computer("mac,8-core,8GB,5600M");
  var c2=new Computer("mac,8-core,8GB,5600M");
+ var c3=new Computer("mac,8-core,8GB,5600M");
